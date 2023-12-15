@@ -30,4 +30,33 @@ Note: before doing anything, make sure that you have created your branch
       - git push origin main        // push your updates to the branch (main) (Not Recommended!!)
       
 
-      
+
+
+## Steps to create a repo on local and upload it on remote repo (which you've created)
+
+[Local Repo]
+1- create folder 
+2- get into it 
+3- open git bash here
+4- git init
+5- put your files on it
+6- git add .
+7- git commit -m "Initial Commit"
+
+[Remote Repo]
+1- create new Repository
+2- write the name of your Repository
+3- finish it and copy the link of that repo and go to the bash on your project
+
+[Local Repo]
+8- Add new Remote link  
+      - git remote add origin [link]
+
+[switch into main branch instead of using master ]
+1- git branch [YournewBranchName]
+      git branch main
+2- git switch main 
+3- git branch -D master
+4- git push origin main
+
+ 
