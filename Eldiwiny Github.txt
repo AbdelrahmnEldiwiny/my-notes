@@ -1,0 +1,33 @@
+// To get the project on your device 
+- git clone [link] [DirectoryName (optional)]
+      - git clone https://github.com/Abdulrhman-Ahmad/angular-reactive-form Abdularhman
+      - git clone https://github.com/Abdulrhman-Ahmad/angular-reactive-form 
+    
+    
+- git pull origin [branchName]
+      - git pull origin main        // take the latest updates from branch main
+     
+     
+Note: before doing anything, make sure that you have created your branch
+      git branch [YourBranchName]
+            - git branch eldiwiny
+      
+      
+      // after that switch to your branch
+      git switch [YourBranchName]
+            - git switch eldiwiny
+
+
+- git add [FileName or .]
+      - git add .                   // add changes to the Staging Area (index)
+      
+      
+- git commit -m "CommitMessage"     // record the commit to the repo logs
+
+
+- git push origin [branchName]      
+      - git push origin eldiwiny    // (Recommended!) more safe
+      - git push origin main        // push your updates to the branch (main) (Not Recommended!!)
+      
+
+      
